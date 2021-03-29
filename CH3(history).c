@@ -13,12 +13,11 @@ char history[10][BUFFER_SIZE]; //history array to store history commands
 int count = 0;//count the number of time any commands will execute 
 
 
-//History function
+//History function. This function will display the history of commands.
 void displayHistory()
 {
     
     printf("Shell command history:\n");
-    
     int i;
     int j = 0;
     int histCount = count;
