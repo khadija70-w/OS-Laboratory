@@ -10,10 +10,10 @@
 
 //declarations
 char history[10][BUFFER_SIZE]; //history array to store history commands
-int count = 0;
+int count = 0;//count the number of time any commands will execute 
 
 
-//function to display the history of commands
+//History function
 void displayHistory()
 {
     
