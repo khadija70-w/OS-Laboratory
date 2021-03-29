@@ -1,0 +1,6 @@
+dup2
+dup2.c
+input.txt
+output.txt
+/home/misbah123/Documents
+misbah
