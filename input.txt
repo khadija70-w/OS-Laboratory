@@ -1,1 +1,3 @@
+//input file where tow numbers are placed and these number will be redirect to function and any operation should perform on them
+
 15 14
