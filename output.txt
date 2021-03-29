@@ -1,6 +1,10 @@
+//this file is just a sample file of output redirect when run the code on shell.
+//redirect output of ls command
 dup2
 dup2.c
 input.txt
 output.txt
+//output of pwd 
 /home/misbah123/Documents
+//output of echo command when redirect to this output file for testing
 misbah
