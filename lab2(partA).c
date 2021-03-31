@@ -224,13 +224,9 @@ int main(int argc, char* argv[]) {
                if(strcmp(tokens[0],"df")==0){
 	         char *args[20];
                  int status;
-                 int i=1;
-                 while(tokens[i]!=NULL){
+		       
                    args[0]="/bin/df"; 
-                   args[i]=tokens[i];
-                   i++;
-                   }
-                 args[i]=NULL;
+                   args[1]=NULL;
                if ( fork() == 0 )
                   execv( args[0], args ); // child: call execv with the path and the args
                else
