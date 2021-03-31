@@ -324,7 +324,7 @@ int main(int argc, char* argv[]) {
                 printf("%s\n",getcwd(a,50));
                 }             
                 
-		}
+	
        
 		// Freeing the allocated memory	
 		for(i=0;tokens[i]!=NULL;i++){
