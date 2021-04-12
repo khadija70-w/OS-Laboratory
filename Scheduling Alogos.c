@@ -1,5 +1,5 @@
 #include<stdio.h>
-// This is global struct used foe queues
+// This is global struct used for queues
 struct process
 {
     char name;
