@@ -27,8 +27,7 @@ for(i=0;i<n;i++)
 }
 
 //function to find waiting time
-void findWaitingTime(int processes[], int n,
-						int bt[], int wt[])
+void findWaitingTime(int processes[], int n,int bt[], int wt[])
 {
 	// waiting time for first process is 0
 	wt[0] = 0;
