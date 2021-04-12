@@ -164,7 +164,8 @@ int main()
    int n = sizeof processes / sizeof processes[0];
    int burst_time[] = {20, 25,25,15,20,10,30,25};
    int priority[]={4,3,3,5,5,1,3,10};
-  for(i=0;i<n-1;i++)
+	    // sorting based on the priority.....Assumption: Higher the number, higher is the priority
+  for(i=0;i<n-1;i++) 
    {
      for(int j=i+1;j<n;j++)
      {
