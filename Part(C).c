@@ -1,4 +1,3 @@
-//the program will mimic the shell and exit when exit will call
 #define _POSIX_SOURCE
 #include <sys/types.h>
 #include <errno.h>
@@ -88,8 +87,7 @@ void readCommand(char* buffer, int max_size) {
     quit(1);
   }
 
-  /* Removes the newline character at the end of the buffer if it is
-     present. */
+ 
   ln = strlen(buffer) - 1;
   if(buffer[ln] == '\n') {
     buffer[ln] = '\0';
