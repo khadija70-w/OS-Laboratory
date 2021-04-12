@@ -110,7 +110,7 @@ int main()
     int burst_time[] = {20, 25,25,15,20,10,30,25};
     float avg_wt,avg_tat;
     int n = sizeof processes / sizeof processes[0];
-   //sorting of burst times
+   //sorting of burst times from lowest to highest
     for(i=0;i<n;i++)
     {
         temp1=i;
@@ -119,7 +119,7 @@ int main()
             if(burst_time[j]<burst_time[temp1])
                 temp1=j;
         }
-  
+  //swaping the burst times and process ids to sort them in ascending order
         temp=burst_time[i];
         burst_time[i]=burst_time[temp1];
         burst_time[temp1]=temp;
