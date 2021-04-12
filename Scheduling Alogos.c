@@ -1,6 +1,5 @@
 #include<stdio.h>
-// Function to find the waiting time for all
-// processes
+// This is global struct used foe queues
 struct process
 {
     char name;
