@@ -90,10 +90,9 @@ int main()
         printf("2: Shortest Job First\n");
         printf("3: Priority Scheduling\n");
         printf("4: Round Robin\n");
-        printf("5: Priority Based Round Robin\n");
-		printf("6: Multilevel Queue\n");
-		printf("Enter Your Integer Choice:");
-		scanf("%d",&option);
+        printf("6: Multilevel Queue\n");
+	printf("Enter Your Integer Choice:");
+	scanf("%d",&option);
 		
 	if(option==1)
 	{
@@ -265,7 +264,7 @@ printf("\n Average Turn Around Time : %d \n",atat);
     if(option==6)
 	{
     int l,time=0,sum_bt=0;
-     int i,j,k=0,r=0,tq1=5,tq2=8,flag=0;
+     int i,j,k=0,r=0,tq1=5,tq2=10,flag=0;
      char c;
      printf("Enter no of processes:");
      scanf("%d",&n);
