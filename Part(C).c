@@ -129,6 +129,7 @@ void goHome() {
 }
 
 /* Kills all child processes and exits with the given status. */
+//function will call when exit or kill system call will make. 
 void quit(int status) {
     kill(0, SIGTERM);
     exit(status);
