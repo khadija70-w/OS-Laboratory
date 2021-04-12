@@ -48,11 +48,12 @@ int main(void){
     {
         execvp(args[0],args); /* execute the command  */
         if (execvp(args[0],args) < 0) {     
-           printf("ERROR: Invalid command\n");
+           printf("ERROR: Invalid command\n");//if command is not valid 
            break;
         }
     }
-    else if (!background){
+    else if (!background)
+    {
         wait(NULL);
     }
   }
