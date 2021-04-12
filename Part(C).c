@@ -1,4 +1,4 @@
-
+//the program will mimic the shell and exit when exit will call
 #define _POSIX_SOURCE
 #include <sys/types.h>
 #include <errno.h>
@@ -10,8 +10,10 @@
 #include <sys/time.h>
 #include <signal.h>
 
+// The maximum allowed length of a command. 
 #define MAX_COMMAND_LENGTH (70)
 
+//The maximum allowed number of arguments given to a command.
 #define MAX_NUM_ARGS (5)
 
 void ignoreSignal(int);
