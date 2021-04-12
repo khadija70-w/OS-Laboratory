@@ -10,7 +10,7 @@
 #include <signal.h>
 
 // The maximum allowed length of a command. 
-#define MAX_COMMAND_LENGTH (80)
+#define MAX_COMMAND_LENGTH (70)
 
 //The maximum allowed number of arguments given to a command.
 #define MAX_NUM_ARGS (5)
