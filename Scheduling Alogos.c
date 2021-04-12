@@ -24,7 +24,7 @@ for(i=0;i<n;i++)
             }
     }
 }
-
+// function definations for fcfs
 //function to find waiting time
 void findWaitingTime(int processes[], int n,int bt[], int wt[])
 {
