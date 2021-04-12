@@ -4,7 +4,6 @@
 #include <sys/wait.h>
 #include <unistd.h>
 #include <string.h>
-
 #define MAX_LINE 80 /* The maximum length command */
 
 int main(void){
@@ -33,7 +32,7 @@ int main(void){
       break;
 
     if(strcmp(args[i-1], "&") == 0){ /* if & is included process running in background*/ 
-        printf("command run in background\n");
+        printf("command is running in background\n");
         args[i-1] = NULL;
         background = 1;
     } 
